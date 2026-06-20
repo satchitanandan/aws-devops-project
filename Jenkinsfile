@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git 'https://github.com/satchitanandan/aws-devops-project.git'
+                git branch:'main',url:'https://github.com/satchitanandan/aws-devops-project.git'
             }
         }
 
